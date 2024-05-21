@@ -11,7 +11,7 @@ import SwiftUI
 struct ChattansWeatherAppSwift2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            InputView() //Author modified this
         }
     }
 }

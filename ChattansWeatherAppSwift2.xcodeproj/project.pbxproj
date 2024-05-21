@@ -14,6 +14,8 @@
 		13448C7F2BBAE48B002EC8B6 /* ChattansWeatherAppSwift2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13448C7E2BBAE48B002EC8B6 /* ChattansWeatherAppSwift2Tests.swift */; };
 		13448C892BBAE48B002EC8B6 /* ChattansWeatherAppSwift2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13448C882BBAE48B002EC8B6 /* ChattansWeatherAppSwift2UITests.swift */; };
 		13448C8B2BBAE48B002EC8B6 /* ChattansWeatherAppSwift2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13448C8A2BBAE48B002EC8B6 /* ChattansWeatherAppSwift2UITestsLaunchTests.swift */; };
+		13448C9A2BBB2352002EC8B6 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13448C992BBB2352002EC8B6 /* WeatherViewModel.swift */; };
+		13448C9C2BBB2880002EC8B6 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13448C9B2BBB2880002EC8B6 /* WeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		13448C842BBAE48B002EC8B6 /* ChattansWeatherAppSwift2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChattansWeatherAppSwift2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13448C882BBAE48B002EC8B6 /* ChattansWeatherAppSwift2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattansWeatherAppSwift2UITests.swift; sourceTree = "<group>"; };
 		13448C8A2BBAE48B002EC8B6 /* ChattansWeatherAppSwift2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattansWeatherAppSwift2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		13448C992BBB2352002EC8B6 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		13448C9B2BBB2880002EC8B6 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				13448C6F2BBAE488002EC8B6 /* ContentView.swift */,
 				13448C712BBAE48B002EC8B6 /* Assets.xcassets */,
 				13448C732BBAE48B002EC8B6 /* Preview Content */,
+				13448C992BBB2352002EC8B6 /* WeatherViewModel.swift */,
+				13448C9B2BBB2880002EC8B6 /* WeatherView.swift */,
 			);
 			path = ChattansWeatherAppSwift2;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13448C702BBAE488002EC8B6 /* ContentView.swift in Sources */,
+				13448C9A2BBB2352002EC8B6 /* WeatherViewModel.swift in Sources */,
 				13448C6E2BBAE488002EC8B6 /* ChattansWeatherAppSwift2App.swift in Sources */,
+				13448C9C2BBB2880002EC8B6 /* WeatherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
